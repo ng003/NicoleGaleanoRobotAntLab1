@@ -18,10 +18,8 @@ public class UltrasonicModule extends Component {
 	private int current; //the working current in milliampere (mA)
 	
 	
-	public void obstacleAvoidanceOn() {
-		//turns on the ultrasonic waves function for obstacle avoidance
+	public void getObstacleDistance() {
+		//ultrasonic waves function to measure distance for obstacle avoidance
 	}
-	public void obstacleAvoidanceOff() {
-		//no obstacle avoidance -- turns off the ultrasonic waves function
-	}
+	
 }

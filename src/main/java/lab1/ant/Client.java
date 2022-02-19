@@ -15,4 +15,11 @@ public class Client extends Controller {
 	public void connectBluetooth() {
 		//connects to Bluetooth to transmit signals to the ant through the Bluetooth module
 	}
+	
+	public void checkForUpgrades() {
+		//checks for available software updates
+	}
+	public void verifyInstallation() {
+		//verifies installation of upgrades
+	}
 }
